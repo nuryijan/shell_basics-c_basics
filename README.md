@@ -18,7 +18,7 @@
 
   - Conceptual Questions: save the answer in a file called `checkpoint-01-answers`.
 
-    - Format:
+    Format:
 
     ```
     1. a.
@@ -29,7 +29,6 @@
     - Once you have completed your test you can run `./checker.py` to check if your answers are correct.
 
   - Practical Questions: complete the file for each question.
-    - Format:
     ```
     7-hello_holberton.c
     8-calculate_area.c
