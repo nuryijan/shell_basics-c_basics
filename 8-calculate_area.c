@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - calculate the area of a rectangle
@@ -7,7 +8,7 @@
  */
 int main(void)
 {
-  float width - 0;
+  float width = 0;
   float height = 0;
 
   width = input("Enter the width of the rectangle: ");
