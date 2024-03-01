@@ -11,9 +11,15 @@ int main(void)
   float width = 0;
   float height = 0;
 
-  width = input("Enter the width of the rectangle: ");
-  height = input("Enter the height of the rectangle: ");
+  printf("Enter the width of the rectangle: ");
+  scanf("%f", &width);
+
+  printf("Enter the height of the rectangle: ");
+  scanf("%f", &height);
   /* Your code gode here */
+
+  float area = height * width;
+  printf("The area of the rectangle is: %.2f\n", area);
 
   return 0;
 }
